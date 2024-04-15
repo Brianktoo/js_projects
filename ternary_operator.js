@@ -19,3 +19,10 @@ console.log(myCategory)
 }
 age_bracket(15)
 
+function exam_message(mark){
+let results = (mark < 40) ? "unsatisfactory":
+	(mark<60) ? "average":
+	(mark<80) ? "good" : "excellent"
+console.log(results)
+}
+exam_message(67)

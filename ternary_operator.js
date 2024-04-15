@@ -13,3 +13,9 @@ console.log(pMark)
 }
 scores(22)
 
+function age_bracket(age){
+let myCategory =(age > 18) ? "you are an adult" : "you are a child"
+console.log(myCategory)	
+}
+age_bracket(15)
+
